@@ -55,6 +55,6 @@ when isMainModule:
       let res = daemonize()
       check res >= 0
       if res == 0:
-        discard connectServer(Port(53333), 100000)
+        discard connectServer(Port(53333), 20000)
       else:
-        check checkServer(Port(53333), 10000) == true
+        check checkServer(Port(53333), 20000) == true
