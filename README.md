@@ -3,6 +3,7 @@
 [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/status-im/nim-daemon.svg?branch=master)](https://travis-ci.org/status-im/nim-daemon)
+[![Build status](https://ci.appveyor.com/api/projects/status/br822ee1primx366/branch/master?svg=true)](https://ci.appveyor.com/project/cheatfate/nim-daemon/branch/master)
 
 Cross-platform process daemonization library.
 
