@@ -5,7 +5,8 @@
 [![Build Status](https://travis-ci.org/status-im/nim-daemon.svg?branch=master)](https://travis-ci.org/status-im/nim-daemon)
 [![Build status](https://ci.appveyor.com/api/projects/status/br822ee1primx366/branch/master?svg=true)](https://ci.appveyor.com/project/cheatfate/nim-daemon/branch/master)
 
-Cross-platform process daemonization library.
+This closs-platform library is used to daemonize processes: that is, make them run in the background and independently of the terminal. The library is used to develop Unix daemons and background processes on Windows.
+
 
 ## License
 
