@@ -12,7 +12,7 @@ This closs-platform library is used to daemonize processes: that is, make them r
 
 # Installation
 
-nimble install https://github.com/status-im/nim-daemon/blob/master/daemon.nimble
+$ nimble install daemon
 
 
 # License
