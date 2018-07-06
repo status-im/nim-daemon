@@ -102,4 +102,6 @@ elif defined(posix):
         quit(QuitFailure)
       if posix.dup2(getFileHandle(serr), getFileHandle(stderr)) < 0:
         quit(QuitFailure)
+      if len(pidfile) > 0:
+        writeFile(pidfile, $pid)
       result = 0
