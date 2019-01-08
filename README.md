@@ -1,4 +1,4 @@
-**Nim Daemonize**
+# Nim Daemonize
 
 [![Build Status (Travis)](https://img.shields.io/travis/status-im/nim-daemon/master.svg?label=Linux%20/%20macOS "Linux/macOS build status (Travis)")](https://travis-ci.org/status-im/nim-daemon)
 [![Windows build status (Appveyor)](https://img.shields.io/appveyor/ci/nimbus/nim-daemon/master.svg?label=Windows "Windows build status (Appveyor)")](https://ci.appveyor.com/project/nimbus/nim-daemon)
@@ -6,14 +6,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Stability: experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
 
-# Introduction
+## Introduction
 
 This closs-platform library is used to daemonize processes: that is, make them run in the background and independently of the terminal. The library is used to develop Unix daemons and background processes on Windows.
 
 
-# Installation
+## Installation
 
-$ nimble install daemon
+```bash
+nimble install daemon
+```
 
 ## License
 
